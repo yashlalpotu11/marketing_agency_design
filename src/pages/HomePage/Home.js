@@ -1,14 +1,15 @@
 import React from 'react';
-import styled from 'styled-components';
+import { InfoSection } from '../../components';
+import { homeObjOne, homeObjTwo, homeObjThree, homeObjFour } from './Data';
 
-
-const H1 = styled.h1`
-    color : green;
-    background-color: aqua;
-`
 const Home = () => {
     return(
-        <H1></H1>
+        <>
+            <InfoSection {...homeObjOne} />
+            <InfoSection {...homeObjTwo} />
+            <InfoSection {...homeObjThree} />
+            <InfoSection {...homeObjFour} />
+        </>
     )
 }
 export default Home;
