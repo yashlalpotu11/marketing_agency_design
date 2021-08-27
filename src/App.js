@@ -4,6 +4,7 @@ import Home from './pages/HomePage/Home'
 import GlobalStyle  from './globalStyles'
 import {Navbar, Footer} from './components'
 import ScrollToTop from './components/ScrollToTop'
+// import { Redirect } from 'react-router';
 
 function App() {
   return (
